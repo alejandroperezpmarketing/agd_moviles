@@ -1,0 +1,108 @@
+
+.form_01_elements .fa-play {
+
+    position: absolute;
+    min-width: 40px;
+    text-justify:auto;
+    justify-content: center;
+    text-align: right;
+    padding-top: 3vh;
+    padding-left: 45vh;
+    padding-right: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.input-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 4px;
+    gap: 4px;
+}
+
+
+
+.col-8 {
+    position: relative;
+}
+
+
+
+#project-name {
+    border-radius: 10px;
+    height: 5vh;
+    width: 35%;
+    background-color: white;
+    padding-left:5vh;
+}
+
+
+.form_01_elements {
+    max-width: 400px;
+    margin: 0 auto;
+
+}
+
+
+
+
+#main {
+    height: 100%;
+    width: 100%;
+    min-width: 250px;
+    max-width: 800px;
+    height: 180px;
+    text-align: center;
+}
+
+form {
+
+    position: relative;
+    
+}
+
+#project-container {
+
+    padding-top:50%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 50vh;
+    flex-direction:row;
+}
+
+input {
+
+    width: 40%;
+    display: flex;
+    border-radius: 25px;
+    font-size: 20px;
+    padding: 8px 40px 8px 20px;
+    border: none;
+    text-align: left;
+    padding-left: 20px;
+    justify-content: center;
+}
+
+input:focus {
+    outline: none;
+}
+
+form i {
+
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top:0;
+    right:0;
+    cursor: pointer;
+    border: none;
+    height: 100%;
+    width: 58px;
+}
+

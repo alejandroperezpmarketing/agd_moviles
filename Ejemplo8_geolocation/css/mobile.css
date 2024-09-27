@@ -1,0 +1,44 @@
+body {
+
+    background-color: #c8c8c8;
+    color:black ; /* Text in black */
+    font: 10 pt Helvetica, Arial, sans-serif;
+    }
+
+
+/* Exercise 08 Geolocation*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html, body {
+
+    height: 100vh; /* 100 = 100%, vh= viewport height*/
+    width: 100vh;
+}
+
+#coordinates {
+
+    position: fixed;
+    top: 0px;
+    height: 30px;
+    width: 100%;
+    line-height: 30px;
+    text-align: center;
+    background-color: rgba(0,0,0,0.1);
+
+}
+
+#menu {
+
+    width: 100%;
+    height: 4em; /*iconos de font awesome se  expresan en estas unidades*/
+    background-color: rgba(0,0,0,0.2);
+    position: fixed;
+    bottom: 0;
+    line-height: 4em;
+    text-align: center;
+    padding-top: 1em;
+}
